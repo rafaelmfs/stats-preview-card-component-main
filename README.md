@@ -31,3 +31,6 @@ Um desafio simples mas que encontrei alguns problemas:
 Tentei chegar o mais proximo do esperado mas teve coisas que não consegui principalmente na pagina mobile os elementos não ficaram iguais, tive umas duvidas com os textos e não consegui deixar da mesma forma que está na imagen, pretendo estudar mais e assim conseguir completar esses desafios.
 
 
+link https://rafaelmfs.github.io/stats-preview-card-component-main/
+
+
