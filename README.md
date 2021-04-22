@@ -23,6 +23,11 @@ Um desafio simples mas que encontrei alguns problemas:
 3. Para deixar o design mais fluído tentei usar as medidas como porcentagem assim enquanto vai diminuindo a tela os conteudos se ajustam.
 4. Existe uma boa diferença entre padding e margin.
 5. Ter mais atenção com height e width e principalmente quando se usa imagens.
-6. Por mais que esteja estudando vi que possuo pouco conhecimento css ainda e ainda tem muita coisa que preciso aprender.
+6. Por mais que esteja estudando vi que possuo pouco conhecimento css ainda e tem muita coisa que preciso aprender.
+
+
+### Resultado
+
+Tentei chegar o mais proximo do esperado mas teve coisas que não consegui principalmente na pagina mobile os elementos não ficaram iguais, tive umas duvidas com os textos e não consegui deixar da mesma forma que está na imagen, pretendo estudar mais e assim conseguir completar esses desafios.
 
 
