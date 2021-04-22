@@ -1,0 +1,200 @@
+/* 
+
+ */
+
+body{
+    max-width: 1440px;
+    background: hsl(233, 47%, 7%);
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+    
+}
+
+.card{
+    display: flex;
+    flex-direction: row-reverse;
+
+    width: 80%;
+    height: 380px;
+    
+
+    margin: 9% 10%;
+    color: white;
+    
+    
+    box-sizing: border-box;
+}
+
+
+.image{
+    width: 50%;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    background-color: hsl(277, 86%, 19%);
+
+    
+}
+
+
+.image img{
+    width: 100%;
+    height: 100%;
+
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px; 
+
+    opacity: 0.4;
+
+    
+}
+.content{
+    width: 50%;
+    padding-left: 7%;
+    padding-top: 5%;
+    padding-right: 8%;
+
+    box-sizing: border-box;
+    background: hsl(244, 38%, 16%);
+
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;  
+
+ 
+}
+
+.content p{
+    padding-right: 10%;
+}
+
+.content h1{
+    font-size: 2em;
+   
+    margin: 0;
+    margin-bottom: 7%;
+}
+
+
+.content .estatisticas{
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 15%;
+    margin-right: 8%;
+    padding-bottom: 20px;
+}
+
+.claro{
+    color:rgba(255, 255, 255, 0.603);
+    font-family: 'Lexend', sans-serif;
+    font-weight: 300;
+}
+
+.content .estatisticas h2{
+    margin: 0;
+    margin-bottom: 7px;
+    font-size: 2em;
+}
+
+.content .estatisticas div{
+    margin: 2%;
+}
+
+
+
+
+#mobile{
+    display: none;
+}
+
+
+footer{
+    color: white;
+
+}
+
+
+
+@media (min-width: 300px) and (max-width: 800px) {
+    #mobile{
+        display: block;
+    }
+    #desktop{
+        display: none;
+    }
+    .card{
+        display: block;
+    }
+
+    .image{
+        width: 100%;
+        height: 60%;
+
+        border-top-right-radius: 6px;
+        border-top-left-radius: 6px;
+        border-bottom-right-radius: 0;
+ 
+        
+    }
+    
+    .image img{
+        width: 100%;
+        height: 100%;
+    
+        border-top-right-radius: 6px;
+        border-top-left-radius: 6px;
+        border-bottom-right-radius: 0;
+    
+        opacity: 0.4;
+    
+        
+    }
+    .content{
+        width: 100%;
+    
+        padding: 10%;
+  
+    
+        box-sizing:border-box;
+
+        padding-left: 15%;
+        padding-right: 10%;
+
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 6px;
+        border-bottom-right-radius: 6px;
+    
+     
+    }
+    
+    .content p{
+        padding-right: 10%;
+    }
+    
+    .content h1{
+        font-size: 2em;
+       
+        margin: 0;
+        margin-bottom: 7%;
+    }
+    
+    
+    .content .estatisticas{
+        display: block;
+       
+    }
+
+    
+    .content .estatisticas div{
+        margin-top: 15%;
+        margin-bottom: 5%;
+        margin-left: 30%;
+        margin-right: 20%;
+    }
+
+    footer{
+        display: none;
+        
+    }
+    
+    
+}
